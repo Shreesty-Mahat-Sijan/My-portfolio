@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+html, body{
+    background-color:white;
+    height: fit-content;
+    width: fit-content;
+    font-size: 25px;
+}
+
+h1{
+    background-color: rgb(20, 19, 19);
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+}
+
+aside{
+    float: right;
+    font-family:cursive;
+    font-size: 15px;
+    background-color: rgb(238, 229, 218);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0 0 250PX;
+    margin-top: 43px;
+}
+
+nav {
+    background-color: rgb(138, 126, 126);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 10px;  
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 30px;  
+    text-align: center;
+}
+
+nav :hover {
+    color:GREY;
+    background-color: white;
+    transition: ease-in-out;
+    transition-duration : 1s;
+}
+
+ul, ol{
+    padding: 15px;
+    margin: 15px;
+}
+
+h2{
+    background-color: rgb(200, 200, 199);
+}
+
+h3{
+    background-color: rgb(145, 128, 104);
+    font-size: 20px;
+}
+
+#images{
+    display: inline-block;
+}
+
+form{
+    margin:20px;
+    height: auto;
+    width: 500px;
+    background-color: rgba(146, 148, 83, 0.433);
+}
+
+footer{
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+    background-color: rgb(20, 19, 19);
+    color: white;
+}
+
+table tr th{
+    background-color: rgb(114, 96, 83);
+    font-size: 30px;
+}
+
+table tr td {
+    padding : 10px;
+}
+
+#button{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    border: 5px solid rgb(133, 134, 131);
+    background-color: blanchedalmond;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
